@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+.top{
+    height:110px;
+    position:relative;
+    /*border-bottom:1px solid #CCC;*/
+    box-shadow:0px 1px 10px rgba(0,0,0,0.2);
+}
+.logo{
+    /*position:absolute;
+    top:20px;
+    left:100px;
+    */
+    float:left;
+    margin-left:100px;
+    margin-top:25px;
+}
+.port{
+    position:absolute;
+    right:100px;
+    bottom:25px;
+    text-decoration:none;
+    color:gray;
+}
+.user{
+    position: absolute;
+    bottom:25px;
+    right: 100px;
+    height:45px;
+    border-radius:22px;
+}
+
+
+.main{
+    height:500px;
+    position:relative;
+    width: 1000px;
+    margin: 0 auto;
+    background-color:RGB(243,243,243);;
+    /*border:1px solid;*/
+}
+
+.good{
+    position: relative;
+    width: 100%;
+    /*border: 1px solid #666666;*/
+    margin: auto;
+    /*padding: 10px;*/
+}
+.num{
+    position: absolute;
+    left:48%
+}
+.jump{
+    text-decoration: none;
+}
+.price{
+    position: absolute;
+    right:10px;
+    color: white;
+    font-size: 18px;
+    background-color: red;
+}
+.describe{
+    font: 700 18px Arial,"microsoft yahei";
+    color: #666;
+}
+.operations{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+.op{
+    border: 0;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #aee2f8;
+    color: #666;
+}
+.op:hover{
+    box-shadow:0px 1px 10px rgba(0,0,0,0.2);
+}
+
+.bottom{
+    height:142px;
+    /*background-color:skyblue;*/
+    margin:0px auto;
+    border-top:1px solid RGB(230,230,230);
+}
+.links{
+    padding-top:30px;
+    padding-bottom:15px;
+    padding-left:142px;
+    margin:0px auto;
+    width:1000px;
+}
+.addition{
+    color:gray;
+    font-size:6px;
+    float:left;
+    text-decoration:none;
+    width:80px;
+}
+.copyright{
+    margin:0 auto;
+    font-size:6px;
+    width:237px;
+    color:gray;
+}

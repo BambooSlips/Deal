@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+}
+.top{
+    height:110px;
+    position:relative;
+    /*border-bottom:1px solid #CCC;*/
+    box-shadow:0px 1px 10px rgba(0,0,0,0.2);
+}
+.logo{
+    /*position:absolute;
+    top:20px;
+    left:100px;
+    */
+    float:left;
+    margin-left:100px;
+    margin-top:25px;
+}
+.port{
+    position:absolute;
+    right:100px;
+    bottom:25px;
+    text-decoration:none;
+    color:gray;
+}
+.user{
+    position: absolute;
+    bottom:25px;
+    right: 100px;
+    height:45px;
+    border-radius:22px;
+}
+
+
+.main{
+    height:500px;
+    position:relative;
+    width: 1000px;
+    margin: 0 auto;
+    /*background-color:RGB(243,243,243);
+    /*border:1px solid;*/
+    /*background-color: #aee2f8;*/
+}
+.sidebar{
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    left: -260px;
+    background-color: lightskyblue;
+    text-align: center;
+}
+.sidebar div{
+    /*background-color:#aee2f8;*/
+    margin: 20px 0 20px 0;
+    height: 50px;
+    position: relative;
+}
+.sidebar label{
+    /*margin: 20px;
+    width: 200px;
+    position: relative;
+    top: 20px;*/
+    position: absolute;
+    top:15px;
+    left: 32%;
+    font: 700 16px Arial,"microsoft yahei";
+    color: #666;
+}
+.sidebar div:hover{
+    box-shadow:0px 1px 10px rgba(0,0,0,0.2);
+}
+.bottom{
+    height:142px;
+    /*background-color:skyblue;*/
+    margin:0px auto;
+    border-top:1px solid RGB(230,230,230);
+}
+.links{
+    padding-top:30px;
+    padding-bottom:15px;
+    padding-left:142px;
+    margin:0px auto;
+    width:1000px;
+}
+.addition{
+    color:gray;
+    font-size:6px;
+    float:left;
+    text-decoration:none;
+    width:80px;
+}
+.copyright{
+    margin:0 auto;
+    font-size:6px;
+    width:237px;
+    color:gray;
+}
