@@ -57,7 +57,7 @@
 </head>
 <body>
 <div class="top">
-    <img src="./img/logo.png" class="logo" alt="logo"/>
+    <img src="./img/DEAL_logo.jpg" class="logo" alt="logo"/>
     <h2 style="margin-top:45px; margin-left:20px; float:left;">增加商品</h2>
     <a href="#"><img src="./img/usr.png" class="user" alt="usersimg"></a>
 </div>

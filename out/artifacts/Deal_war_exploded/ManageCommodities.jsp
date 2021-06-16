@@ -30,7 +30,7 @@
 </head>
 <body>
 <div class="top">
-    <img src="./img/logo.png" class="logo" alt="logo"/>
+    <img src="./img/DEAL_logo.jpg" class="logo" alt="logo"/>
     <h2 style="margin-top:45px; margin-left:20px; float:left;">商品管理</h2>
     <a href="#"><img src="./img/usr.png" class="user" alt="usersimg"></a>
 </div>
@@ -77,14 +77,13 @@
         </tfoot>
     </table>
     <div class="info"  style="border:0">
-        <a href="./addCommodity.jsp" target="_blank">
+        <a href="./addCommodity.jsp" target="_blank" style="position: absolute; top:-40px">
             <input type="submit" value="增加商品" id="save" onclick=""/>
         </a>
-        <input type="submit" value="删除商品" id="save" onclick="alter()"/>
+        <a style="position: absolute; top:-40px; left: 90px">
+            <input type="submit" value="删除商品" id="delete" onclick=""/>
+        </a>
     </div>
-    <script>
-
-    </script>
 </div>
 <br>
 <div class="bottom">

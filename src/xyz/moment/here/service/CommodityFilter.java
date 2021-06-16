@@ -15,6 +15,13 @@ public class CommodityFilter {
         return CommodityDAO.selectCommodities(sql);
     }
 
+    //模糊查询商品
+    public List<Commodity> selectCommodities(String keywords) throws SQLException, ClassNotFoundException {
+        String sql = "select * from commodity natural join commodityType where name like '%"+keywords+"%'" +
+                " or description like '%"+keywords+"%' or typeName like '%"+keywords+"%'";
+        return CommodityDAO.selectCommodities(sql);
+    }
+
     //按类别选择商品
     public List<Commodity> typeSelect(String type) throws SQLException, ClassNotFoundException {
         String sql = "select * from commodity natural join commodityType where typeName = '" + type

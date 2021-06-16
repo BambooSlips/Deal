@@ -47,7 +47,7 @@
 </head>
 <body>
 <div class="top">
-    <img src="./img/logo.png" class="logo"/>
+    <img src="./img/DEAL_logo.jpg" class="logo"/>
     <h2 style="margin-top:45px; margin-left:20px; float:left;">商品详情</h2>
 
     <a class="port" href="CheckAccountServlet" target="_blank">

@@ -11,7 +11,7 @@
 }
 .center{
     height:490px;
-    background-color: #6c49b3;
+    background-color: #aee2f8 /*rgba(11.4, 75.3,100,1)*/;
     position:relative;
 }
 .bottom{
@@ -181,7 +181,7 @@ input:hover{
     */
     float:left;
     margin-left:100px;
-    margin-top:25px;
+    margin-top:15px;
 }
 .port{
     position:absolute;

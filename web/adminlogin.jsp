@@ -21,7 +21,7 @@
 </head>
 <body>
 <div class="top">
-    <img src="./img/logo.png" class="logo"/>
+    <img src="./img/DEAL_logo.jpg" class="logo"/>
     <h2 style="margin-top:45px; margin-left:20px; float:left;">欢迎登录</h2>
     <a class="port" href="./login.jsp">调查问卷></a>
 </div>
